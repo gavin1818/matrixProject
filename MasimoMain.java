@@ -37,6 +37,7 @@ public class MasimoMain{
 
 		}
 	}
+    //read the array from array of N
 	public static List<Float> readFromText(String address) throws IOException {
             Scanner inFile = new Scanner(new File(address));
             List<Float> temps = new ArrayList<>();
